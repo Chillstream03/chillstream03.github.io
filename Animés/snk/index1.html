@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="snk1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shingeki No Kyojin | L'attaque des titans</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+    <div class="toggle"><a href="C:\Users\Lucas\Desktop\Flick-play-main\index.html"><img src="toggle.png" alt=""></a></div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2><span>Shingeki No Kyojin </span>Attaque des titans</h2>
+           <a href="#" class="play" onclick="toggle();"><img src="play.png" alt="">Episode 1</a>
+           <a href="#" class="play" onclick="toggle1();"><img src="play.png" alt="">Episode 2</a>
+           <a href="#" class="play" onclick="toggle2();"><img src="play.png" alt="">Episode 3</a>
+           <a href="#" class="play" onclick="toggle3();"><img src="play.png" alt="">Episode 4</a>
+           <a href="#" class="play" onclick="toggle4();"><img src="play.png" alt="">Episode 5</a>
+           <a href="#" class="play" onclick="toggle5();"><img src="play.png" alt="">Episode 6</a>
+           <a href="#" class="play" onclick="toggle6();"><img src="play.png" alt="">Episode 7</a>
+           <a href="#" class="play" onclick="toggle7();"><img src="play.png" alt="">Episode 8</a>
+           <a href="#" class="play" onclick="toggle8();"><img src="play.png" alt="">Episode 9</a>
+           <a href="#" class="play" onclick="toggle9();"><img src="play.png" alt="">Episode 10</a>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="https://fs.myvi.ru/video/2535379.mp4?uid=&puid=410067&ref=https%3a%2f%2fvostfree.com&d=1535&rnd=87225141&sig=7b75415d18e8ac499abce52b091b4a8d" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle();">
+    </div>
+    <div class="saison">
+        <video src="https://fs.myvi.ru/video/2535380.mp4?uid=&puid=410067&ref=https%3a%2f%2fvostfree.com&d=1454&rnd=1281115849&sig=61006cf7894b79a5cd1c1e4fa8cd956d" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle1();">
+    </div>
+    <div class="saison1">
+        <video src="https://fs.myvi.ru/video/2535382.mp4?uid=&puid=410067&ref=https%3a%2f%2fvostfree.com&d=1454&rnd=37532154&sig=76baf6f2934e02ab0e020b9a3c408dd8" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle2();">
+    </div>
+    <div class="saison2">
+        <video src="snk.mp4" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle3();">
+    </div>
+    <div class="saison">
+        <video src="snk.mp4" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle4();">
+    </div>
+    <script>
+        function toggle(){
+        var trailer=document.querySelector('.trailer');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    function toggle1(){
+        var trailer=document.querySelector('.saison');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    function toggle2(){
+        var trailer=document.querySelector('.saison1');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    function toggle3(){
+        var trailer=document.querySelector('.saison2');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    function toggle4(){
+        var trailer=document.querySelector('.saison');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    function toggle5(){
+        var trailer=document.querySelector('.saison');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    </script>
+</body>
+</html>
